@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+   <form action="/customer_page2">
+  	Find a Customer by First Name: <input type="text" name="user_id"><br>
+  <input type="submit" value="Find Customer">
+</form>
+<form action="/addCustomer">
+  <!-- customer_id	1
+business_name	"Moet et Chandon"
+first_name	"Sam"
+last_name	"Christian"
+customers_contact_number	"2903337679"
+address_line1	"132 Fieldstone Ave."
+address_line2	""
+zip_code	"70605"
+product_id	1
+number_of_products_ordered	120 -->
+    Customer_id : <input type="text" name="customer_id"><br>
+  	Customer_business_name : <input type="text" name="business_name"><br>
+  	Customer_First_Name : <input type="text" name="first_name"><br>
+  	Customer_Last_Name : <input type="text" name="last_name"><br>
+  	Customer_contact_number : <input type="text" name="customers_contact_number"><br>
+  	Customer_address line 1 : <input type="text" name="address_line1"><br>
+    Customer_address line 2 : <input type="text" name="address_line2"><br>
+  	Customer_zip_code : <input type="text" name="zip_code"><br>
+  <input type="submit" value="Add Customer">
+</form>
+<form action="/customer_delete">
+   Delete Customer by ID: <input type="text" name="customer_id"><br>
+  <input type="submit" value="Remove customer_id">
+</form>
+<form action="/go_back">
+<input type="submit" value="Go_Back">
+</form>
+
+
+
+</body>
+</html>

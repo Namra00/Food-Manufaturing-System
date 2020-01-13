@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <form action="/product_page2">
+    	Find Product by Name: <input type="text" name="product_id"><br>
+    <input type="submit" value="Find Product">
+  </form>
+
+
+<form action="/addProduct">
+	<!-- product_id	1
+product_name	"Pizza"
+type_of_food	"Bread"
+product_price	8
+products_sold	2434
+number_products_produced	3000
+profit_percentage	60 -->
+  	Product_ID : <input type="text" name="product_id"><br>
+  	Product_name : <input type="text" name="product_name"><br>
+  	Product_type : <input type="text" name="product_type"><br>
+  	Product_price : <input type="text" name="product_price"><br>
+  	Product_sold : <input type="text" name="product_sold"><br>
+  	Product_Production_Count : <input type="text" name="Product_Production_Count"><br>
+  	Product_Profit_Percentage : <input type="text" name="Product_Profit_Percentage"><br>
+  <input type="submit" value="Add Product">
+</form>
+  
+ <form action="/product_delete">
+   Delete product by ID: <input type="text" name="product_id"><br>
+  <input type="submit" value="Remove product_id">
+</form> 
+
+<form action="/go_back">
+<input type="submit" value="Go_Back">
+</form>
+
+</body>
+</html>
